@@ -32,7 +32,7 @@ SET isod=%date:~10,4%-%date:~4,2%-%date:~7,2%
 SET isot=%time:~0,2%:%time:~3,2%:%time:~6,2%
 SET isot=%isot: =0%
 ECHO.
-ECHO %isod% %isot% ^| %CN% >> notes.txt
+ECHO %isod% %isot% %CN% >> notes.txt
 ECHO.>> notes.txt
 GOTO NOTE
 
